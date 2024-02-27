@@ -77,7 +77,7 @@ public class ClientView extends JFrame {
         // create main panel for window
         mainPanel = new JPanel(new BorderLayout());
         mainPanel.setBackground(Color.decode("#eef7ff"));
-        mainPanel.setPreferredSize(new Dimension(740, 720));
+        mainPanel.setPreferredSize(new Dimension(1280, 720));
 
         // create panel wherein chat logs and chatbox are contained
         JPanel chatPanel = new JPanel(new BorderLayout());
